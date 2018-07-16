@@ -70,6 +70,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 256986,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 9,
   "name": "User hovers on avatars",
@@ -103,7 +107,7 @@ formatter.match({
   "location": "Steps.user_is_on_hover_test_page()"
 });
 formatter.result({
-  "duration": 28504641022,
+  "duration": 4458901529,
   "status": "passed"
 });
 formatter.match({
@@ -116,7 +120,7 @@ formatter.match({
   "location": "Steps.user_hover_on(String)"
 });
 formatter.result({
-  "duration": 168431483,
+  "duration": 185038207,
   "status": "passed"
 });
 formatter.match({
@@ -129,7 +133,15 @@ formatter.match({
   "location": "Steps.username_should_display(String)"
 });
 formatter.result({
-  "duration": 51885087,
+  "duration": 39592060,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 604563645,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 96856,
   "status": "passed"
 });
 formatter.scenario({
@@ -165,7 +177,7 @@ formatter.match({
   "location": "Steps.user_is_on_hover_test_page()"
 });
 formatter.result({
-  "duration": 38095061742,
+  "duration": 3696016237,
   "status": "passed"
 });
 formatter.match({
@@ -178,7 +190,7 @@ formatter.match({
   "location": "Steps.user_hover_on(String)"
 });
 formatter.result({
-  "duration": 122770117,
+  "duration": 131296704,
   "status": "passed"
 });
 formatter.match({
@@ -191,7 +203,15 @@ formatter.match({
   "location": "Steps.username_should_display(String)"
 });
 formatter.result({
-  "duration": 46040451,
+  "duration": 32510817,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 626240412,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 90083,
   "status": "passed"
 });
 formatter.scenario({
@@ -227,7 +247,7 @@ formatter.match({
   "location": "Steps.user_is_on_hover_test_page()"
 });
 formatter.result({
-  "duration": 4139685155,
+  "duration": 3985184193,
   "status": "passed"
 });
 formatter.match({
@@ -240,7 +260,7 @@ formatter.match({
   "location": "Steps.user_hover_on(String)"
 });
 formatter.result({
-  "duration": 139456479,
+  "duration": 132873605,
   "status": "passed"
 });
 formatter.match({
@@ -253,7 +273,11 @@ formatter.match({
   "location": "Steps.username_should_display(String)"
 });
 formatter.result({
-  "duration": 59474101,
+  "duration": 39998825,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 613322827,
   "status": "passed"
 });
 formatter.uri("LoginTest.feature");
@@ -312,6 +336,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 66288,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 10,
   "name": "Customer tries to login with valid credentials.",
@@ -343,7 +371,7 @@ formatter.match({
   "location": "Steps.user_is_on_login_Page()"
 });
 formatter.result({
-  "duration": 4677314950,
+  "duration": 3811734318,
   "status": "passed"
 });
 formatter.match({
@@ -360,14 +388,18 @@ formatter.match({
   "location": "Steps.user_tries_to_login(String,String)"
 });
 formatter.result({
-  "duration": 5570318407,
+  "duration": 675787412,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.login_should_be_successful()"
 });
 formatter.result({
-  "duration": 77286599,
+  "duration": 69740463,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 602679846,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -418,6 +450,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 132663,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 19,
   "name": "Customer tries to login with invalid username.",
@@ -449,7 +485,7 @@ formatter.match({
   "location": "Steps.user_is_on_login_Page()"
 });
 formatter.result({
-  "duration": 5450882135,
+  "duration": 3881825229,
   "status": "passed"
 });
 formatter.match({
@@ -466,14 +502,18 @@ formatter.match({
   "location": "Steps.user_tries_to_login(String,String)"
 });
 formatter.result({
-  "duration": 732128119,
+  "duration": 660533503,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.verify_invalid_username_error_message()"
 });
 formatter.result({
-  "duration": 82928837,
+  "duration": 69193563,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 618358810,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -524,6 +564,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 114558,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 28,
   "name": "Customer tries to login with invalid password.",
@@ -555,7 +599,7 @@ formatter.match({
   "location": "Steps.user_is_on_login_Page()"
 });
 formatter.result({
-  "duration": 5195491290,
+  "duration": 3942735930,
   "status": "passed"
 });
 formatter.match({
@@ -572,14 +616,18 @@ formatter.match({
   "location": "Steps.user_tries_to_login(String,String)"
 });
 formatter.result({
-  "duration": 698471505,
+  "duration": 686889153,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.verify_invalid_password_error_message()"
 });
 formatter.result({
-  "duration": 108854500,
+  "duration": 82068390,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 593900504,
   "status": "passed"
 });
 formatter.uri("SortingTest.feature");
@@ -649,6 +697,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 62906,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 9,
   "name": "User sorts in ascending order with Last name column",
@@ -684,7 +736,7 @@ formatter.match({
   "location": "Steps.user_is_on_sorting_test_page()"
 });
 formatter.result({
-  "duration": 4590027032,
+  "duration": 3689275447,
   "status": "passed"
 });
 formatter.match({
@@ -701,7 +753,7 @@ formatter.match({
   "location": "Steps.user_sorts_with_column(String,String)"
 });
 formatter.result({
-  "duration": 241244023,
+  "duration": 242628820,
   "status": "passed"
 });
 formatter.match({
@@ -718,7 +770,15 @@ formatter.match({
   "location": "Steps.ascending_sorting_shouold_be_successful(String,String)"
 });
 formatter.result({
-  "duration": 4590326557,
+  "duration": 42232789,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 618707452,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 69094,
   "status": "passed"
 });
 formatter.scenario({
@@ -756,7 +816,7 @@ formatter.match({
   "location": "Steps.user_is_on_sorting_test_page()"
 });
 formatter.result({
-  "duration": 4599600046,
+  "duration": 3772555566,
   "status": "passed"
 });
 formatter.match({
@@ -773,7 +833,7 @@ formatter.match({
   "location": "Steps.user_sorts_with_column(String,String)"
 });
 formatter.result({
-  "duration": 455852141,
+  "duration": 454219338,
   "status": "passed"
 });
 formatter.match({
@@ -790,7 +850,11 @@ formatter.match({
   "location": "Steps.ascending_sorting_shouold_be_successful(String,String)"
 });
 formatter.result({
-  "duration": 54375948,
+  "duration": 83209784,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 608446210,
   "status": "passed"
 });
 });
